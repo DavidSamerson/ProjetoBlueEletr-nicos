@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
+    <title>BLUE ELETRÔNICOS</title>
+
+    <!-- Bootstrap -->
+    <!-- Bootstrap -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim e Respond.js para suporte no IE8 de elementos HTML5 e media queries -->
+    <!-- ALERTA: Respond.js não funciona se você visualizar uma página file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+  <style type="text/css">
+  /* CSS para estilização das imagens de fundo das divs */
+    #classe1{background-image: url("Imagens/Icon/BlueEletronicos.jpg"); background-size: 350px; background-repeat: no-repeat; background-size: 290px; margin-top: 80px; padding-bottom: 180px;} /*CSS para margem da logo.*/
+    #classe2{}
+    #classe3{}
+    #classe4{}
+  </style>
+
+<style type="text/css">
+  /*CSS para tamanho e distância entre as divs/botões/textos*/
+      #containerconteudocompras{padding: 40px;}
+     #menuPrincipal{padding-top: 30px; padding-bottom: 140px; }
+     #PdaSAC{padding-top: 30px; }
+     #Pesquisa{margin-left: 20px}
+
+     .daSAC{margin-right: 10px }
+     .margemBotoesMenuPrincipal{padding-bottom: 10px; padding-top: 10px;}
+     .posicaoslide{margin-left: 40px; }
+     .tamanhodosiconesdomenu{ max-width:75px; max-height:70px; width: auto; height: auto; }
+     .margemdoformulario{margin-top: 10px;}
+     .margemdoformularioinicio{margin-top: 30px;} 
+
+</style>
+      <div class="container">
+              <!-- DIVS Correspondem a: 1- LOGO 2- MENU SAC 3-Carrinho 4-Cadastro/Login -->
+              <!-- -------------------------------------------------------------------- -->
+          <div class="row" align="center">
+              
+              <div class="col-md-3 " id="classe1"> </div>
+              <div class="col-md-5 " id="classe2">
+
+                  <h6><p id="PdaSAC">
+                  <a href="" class="daSAC"><img alt="Brand" src="...">Lista de desejos</a> 
+                  <a href="" class="daSAC"><img alt="Brand" src="...">Meus Pedidos</a> 
+                  <a href="" class="daSAC"><img alt="Brand" src="...">Atendimentos</a>   </p>
+                  <p>
+                  <button type="button" class="btn btn-primary btn-xs">Minha Conta</button>
+                  <button type="button" class="btn btn-primary btn-xs">Quem Somos</button>
+                  <button type="button" class="btn btn-primary btn-xs">Politica do Site</button>
+                  <button type="button" class="btn btn-primary btn-xs">SAC</button>
+                  </p></h6>
+
+
+
+
+              </div>
+              <div class="col-md-1 " id="classe3">carrinho</div>
+
+              <!-- FORMULARIO -->
+              <div class="col-md-2 " id="classe6">
+
+                        <div align="center" class="margemdoformularioinicio">
+                        
+                
+                
+                         <form id="login-form" class="text-left">
+                            
+                                  <label for="lg_username" class="sr-only bnt-block">Username</label>
+                                  <input type="text" class="form-control" id="lg_username" name="lg_username" placeholder="username">
+                                
+                                  <label for="lg_password" class="sr-only">Password</label>
+                                  <input type="password" class="form-control" id="lg_password" name="lg_password" placeholder="password">
+
+                                    <div align="center" class="margemdoformulario">
+                                  <input type="submit" name="LOGIN" value="LOGIN" class="btn btn-primary btn-xs">
+                                    </div>
+                          </form>
+
+                          <div align="center" class="margemdoformulario">
+                          <button type="button" class="btn btn-primary btn-xs">CADASTRE-SE</button>
+                        </div>
+                        
+                     
+                  </div>
+
+              </div>
+
+              <!-- CLASSE REFERENTE AO MENU DE PESQUISA -->
+              <div class="col-lg-5" id="Pesquisa">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button">Go!</button>
+                    </span>
+                  </div><!-- /input-group -->
+                </div><!-- /.col-lg-6 -->
+              
+          </div>
+          
+
+
+          <!-- ------------------------------------------------------------------------- -->
+          <!-- Div referente ao menu principal -->
+          <!-- ITENS MODIFICADOS -->
+
+          <div class="row-md-12" id="menuPrincipal" align="center"> 
+              <div class="container" id="divmenuprincipal">
+                        <!-- TABLET E CELULARES -->
+                    <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal " id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/tablet.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Kindle</a></li>
+                         <li><a href="#">Smartphones</a></li>
+                          <li><a href="#">Tablets</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                      </div>
+                     </div>
+                      <!-- TELEVISÃO -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal " id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/TV.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Tvs LCD</a></li>
+                         <li><a href="#">Tvs LED</a></li>
+                          <li><a href="#">Tvs Plasma</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                      </div>
+                     </div>
+
+                      <!-- NOTEBOOK -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/notebook.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Netbooks</a></li>
+                         <li><a href="#">Notebooks</a></li>
+                          <li><a href="#">Ultrabooks</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                      </div>
+                     </div>
+
+                      <!-- GELADEIRA -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/Geladeiras.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Freezers</a></li>
+                         <li><a href="#">Frigobares</a></li>
+                          <li><a href="#">Geladeiras</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                      </div>
+                     </div>
+
+                     <!-- LAvadora de roupas -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/lavar.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Lavadoras Automáticas</a></li>
+                         <li><a href="#">Lavadoras Semi-automáticas</a></li>
+                          <li><a href="#">Secadoras</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                      </div>
+                     </div>
+
+                      <!-- VIDEOGAME -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/games.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Consoles</a></li>
+                         <li><a href="#">Portateis</a></li>
+                          <li><a href="#">Jogos</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                      </div>
+                     </div>
+
+                      <!-- ArCondicionados -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/Arcondicionado.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Ar condicionados Splits</a></li>
+                         <li><a href="#">Ar condicionados Piso-Teto</a></li>
+                          <li><a href="#">Ar condicionados Portateis</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                      </div>
+                     </div>
+                      <!-- FOGÃO -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/fogão.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Fogões de Piso</a></li>
+                         <li><a href="#">Fogões Cooktops</a></li>
+                          <li><a href="#">Fogões de Mesa</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                      </div>
+                     </div>
+                     <!-- LIVROS -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/livro.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Acadêmicos</a></li>
+                         <li><a href="#">Paradidáticos</a></li>
+                          <li><a href="#">Variados</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                      </div>
+                     </div>
+                     <!-- MAIS -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/maiss.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Ação</a></li>
+                         <li><a href="#">Outra ação</a></li>
+                          <li><a href="#">Algo mais aqui</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Link separado</a></li>
+                       </ul>
+                      </div>
+                     </div>
+                     
+
+            
+              </div>
+            </div>
+
+          <!-- ------------------------------------------------------------------------ -->
+          <!-- Divs com o menu secundário e a parte dos conteúdos. -->
+          <!-- PRIMEIRO BOTÃO MODIFICADO -->
+
+          <div class="row" id="ParteDosConteudos"> 
+
+              <div class="col-md-3 " id="menusecundario" > 
+
+              <!-- BOTÕES PARA REDIRECIONAMENTO (Botões Secundários dos menus)-->
+                <div class="Dropdown">
+                       <button class=" dropdown-toggle btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1" data-toggle="Promoções" aria-haspopup="true" aria-expanded="true">
+                            <h id="promocoes.html">  </h></a>
+                            <a href="#promocoes.html"> Promoções </a>
+                         
+                        </button>
+                       
+                    </div>
+
+                    <div class="dropdown">
+                       <button class="btn btn-default dropdown-toggle btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                           Dropdown
+                         
+                        </button>
+                       <ul class="dropdown-menu btn btn-lg btn-block" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Ação</a></li>
+                         <li><a href="#">Outra ação</a></li>
+                          <li><a href="#">Algo mais aqui</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Link separado</a></li>
+                       </ul>
+                    </div>
+
+                    <div class="dropdown">
+                       <button class="btn btn-default dropdown-toggle btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                           Dropdown
+                         
+                        </button>
+                       <ul class="dropdown-menu btn btn-lg btn-block" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Ação</a></li>
+                         <li><a href="#">Outra ação</a></li>
+                          <li><a href="#">Algo mais aqui</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Link separado</a></li>
+                       </ul>
+                    </div>
+
+                    <div class="dropdown">
+                       <button class="btn btn-default dropdown-toggle btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                           Dropdown
+                         
+                        </button>
+                       <ul class="dropdown-menu btn btn-lg btn-block" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Ação</a></li>
+                         <li><a href="#">Outra ação</a></li>
+                          <li><a href="#">Algo mais aqui</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Link separado</a></li>
+                       </ul>
+                    </div>
+
+                    <div class="dropdown">
+                       <button class="btn btn-default dropdown-toggle btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                           Dropdown
+                         
+                        </button>
+                       <ul class="dropdown-menu btn btn-lg btn-block" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Ação</a></li>
+                         <li><a href="#">Outra ação</a></li>
+                          <li><a href="#">Algo mais aqui</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Link separado</a></li>
+                       </ul>
+                    </div>
+
+
+               </div>
+              <!-- -------------------------------------------------- -->
+                <!--ITENS MODIFICADOS-->
+
+              <div class="col-md-7 " id="conteudo" align="center" >   
+
+              <!-- TRANSAÇÃO DE SLIDES -->
+                  
+              <div id="carousel-example-generic btn-block" class="carousel slide posicaoslide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="imagens/produtos/Ultrabook/ultrabook3.jpg" alt="brand">
+                    <div class="carousel-caption">
+                     Ultrabook 2 em 1 Asus TAICHI31-CX023H - com Intel Core i5 4GB 256GB Wi
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="imagens/produtos/Tablet/tablet6.jpg" alt="brand">
+                    <div class="carousel-caption">
+                      Tablet Samsung Galaxy Tab S2 T715 16GB Wi-Fi/4G Tela 8'' Android 5.0 Processador 1.9 Ghz+1.3GHz – Preto
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="imagens/produtos/Jogos/jogos3.jpg" alt="brand">
+                    <div class="carousel-caption">
+                      PS3 - Grand Theft Auto V (GTA V) com Legendas em Português
+                    </div>
+                  </div>
+                  Promoções em destaque!
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="imagens/produtos/Tablet/tablet6" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <!-- -------------------------------------------------------------------------------------------- -->
+                <!-- ITENS MODIFICADOS -->
+                <!-- Divs com opções de compras -->
+                <div class="container" id="containerconteudocompras">
+
+                      <div class="row">
+                        <div class="col-sm-3 col-md-3">
+                          <div class="thumbnail">
+                            <img src="imagens/produtos/notebook/notebook1.jpg" alt="brand">
+                            <div class="caption">
+                              <h5>Notebook Dell Inspiron 14 I14-5458-D08P Intel Core - i3 4GB 1TB LED 14</h5>
+                              <p><h4>R$ 1804,00</h4></p>
+                              <p><a href="#" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-3 col-md-3">
+                          <div class="thumbnail">
+                            <img src="imagens/produtos/smartphone/smartphone1.jpg" alt="brand">
+                            <div class="caption">
+                             <h5>Smartphone Motorola Moto G 4 Geração Plus 32GB, Dual, 16MP, 4G, Preto - XT1640</h5>
+                              <p><h4>R$ 1320,00</h4></p>
+                              <p><a href="#" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-3 col-md-3">
+                          <div class="thumbnail">
+                            <img src="imagens/produtos/smartphone/smartphone2.jpg" alt="brand">
+                            <div class="caption">
+                              <h5>Smartphone Motorola Moto G4 16gb Dual XT1626 Desbloqueado Preto</h5>
+                              <p><h4>R$ 1144,00</h4></p>
+                              <p><a href="#" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3">
+                          <div class="thumbnail">
+                            <img src="imagens/produtos/Frigobar/frigobar3.jpg" alt="brand">
+                            <div class="caption">
+                              <h5>Frigobar Philco 47 Litros Branco - PH50L Branco 110 V</h5>
+                              <p><h4>R$ 559,00</h4></p>
+                              <p><a href="#" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-3 col-md-3">
+                          <div class="thumbnail">
+                            <img src="imagens/produtos/Geladeira/geladeira5.jpg" alt="brand">
+                            <div class="caption">
+                              <h5>Refrigerador/Geladeira Brastemp Frost Free Ative, 2 Portas, 429 Litros</h5>
+                              <p><h4>R$ 2159,00</h4></p>
+                              <p><a href="#" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-3 col-md-3">
+                          <div class="thumbnail">
+                            <img src="imagens/produtos/Consoles/consoles5.jpg" alt="brand">
+                            <div class="caption">
+                              <h5>Console Xbox One S 2TB (Edição de Lançamento) - Microsoft</h5>
+                              <p><h4>R$ 3299,00</h4></p>
+                              <p><a href="#" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                      
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3">
+                          <div class="thumbnail">
+                            <img src="imagens/produtos/Jogos/jogos5.jpg" alt="brand">
+                            <div class="caption">
+                              <h5>Jogo Halo 4 Goty Xbox 360 Microsoft</h5>
+                              <p><h4>R$ 74,00</h4></p>
+                              <p><a href="#" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                         <div class="col-sm-3 col-md-3">
+                          <div class="thumbnail">
+                            <img src="imagens/produtos/Kindle/kindle2.jpg" alt="brand">
+                            <div class="caption">
+                              <h5>Kindle 8ª Geração Amazon Tela 6" 4GB - Wi-Fi Bivolt</h5>
+                              <p><h4>R$ 249,00</h4></p>
+                              <p><a href="#" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-3 col-md-3">
+                          <div class="thumbnail">
+                            <img src="imagens/produtos/Ultrabook/ultrabook2.jpg" alt="brand">
+                            <div class="caption">
+                              <h5>Ultrabook 2 em 1 Lenovo, Intel Core i5 3337u</h5>
+                              <p><h4>R$ 1999,00</h4></p>
+                              <p><a href="#" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                      
+
+                          
+
+
+                        </div>
+
+                    </div>
+
+                            <!-- CONTEUDO DE ROLAGEM -->
+                            
+
+                </div>
+              <!-- ----------------------------------------------------------------------------------------------- -->
+               </div>
+
+                
+
+
+           </div><!--fim da container-->
+
+           <!-- RODAPÉ -->
+
+           <div class="row" id="rodape">
+             
+
+
+
+           </div>
+
+
+
+
+
+
+
+
+
+
+
+    
+      </div>
+    <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
