@@ -27,6 +27,8 @@
     #classe2{}
     #classe3{}
     #classe4{}
+    .fundocompra{background-image: url(Imagens/corpo/rachado.jpg); border: 3px solid #337ab7;
+   }
     
     .rodape{
       background-image: url("Imagens/corpo/azul-fundo-2.jpg");
@@ -62,8 +64,13 @@
      .margemdocarrinho{margin-top:60px;}
      .tamanhoImagemLogoRodape{max-width:200px; max-height:210px; width: auto; height: auto; margin-bottom: 20px}
      .corBranca{color: white}
-     .PosicaoDasDivsConteudoButton{margin-bottom: 40px }
+     .PosicaoDasDivsConteudoButton{margin-bottom: 40px; margin-top: 20px}
      .formulariocadastro{max-width: 280px; max-height: 34px;}
+     .corbrancafundo{background-color: white}
+     .fontemenucompra{color: black; font-weight: 900}
+     .bordaazul{border: 1px solid #337ab7}
+
+     hr{border: 3px solid #337ab7}
 
 </style>
       <div class="container">
@@ -216,6 +223,16 @@
                                             <div class="input-group">
                                               Digite a senha de segurança:
                                               <input type="password" id="senha" placeholder="SENHA - 3 DIGITOS" class="form-control input-md " required="">
+                                            </div> <!-- /.input-group -->
+                                          </div> <!-- /.form-group -->
+
+                                          <div class="form-group">
+                                            <div class="input-group">
+                                              Endereço:
+                                              
+                                              <input type="text" id="endereco" placeholder="Endereco" class="form-control input-md " required=""> 
+                                              <input type="text" name="numero" class="form-control input-md" placeholder="Nº" >
+                                              <input type="text" name="Bairro" class="form-control input-md" placeholder="Bairro">
                                             </div> <!-- /.input-group -->
                                           </div> <!-- /.form-group -->
 
@@ -464,13 +481,13 @@
           <!-- Divs com o menu secundário e a parte dos conteúdos. -->
 
 
-          <div class="row" id="ParteDosConteudos divConteudoFundo"> 
+          <div class="row" id="ParteDosConteudos"> 
 
               <div class="col-md-3 " id="menusecundario" > 
 
               <!-- BOTÕES PARA REDIRECIONAMENTO (Botões Secundários dos menus)-->
                 <div class="dropdown ">
-                       <a href="../promocoes.html" style="color:white" >
+                       <a href="promocoes.html" style="color:white" >
                        <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1" data-toggle="dropdown">
                            
                             Promoções 
@@ -539,12 +556,12 @@
               <!-- -------------------------------------------------- -->
 
 
-              <div class="col-md-9 PosicaoDasDivsConteudoButton" id="conteudo" >   
+              <div class="col-md-9 PosicaoDasDivsConteudoButton fundocompra fontemenucompra" id="conteudo" >   
 
 
               <!-- TRANSAÇÃO DE SLIDES -->
                   
-              <div id="carousel-example-generic" class="carousel slide posicaoslide PosicaoDasDivsConteudoButton" data-ride="carousel">
+              <div id="carousel-example-generic" class="carousel slide posicaoslide PosicaoDasDivsConteudoButton corbrancafundo bordaazul" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                   <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -556,23 +573,23 @@
                 <div class="carousel-inner" role="listbox">
                   <div class="item active">
                     <img src="Imagens/Produtos/Geladeira/geladeira1.jpg" alt="brand">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption fontemenucompra">
                       Refrigerador Brastemp Ative! Frost Free BRM48NK Platinum - 403 L - Evox - 110V
                     </div>
                   </div>
                   <div class="item">
-                    <img src="../Imagens/Produtos/Geladeira/geladeira3.jpg" alt="brand">
-                    <div class="carousel-caption">
+                    <img src="Imagens/Produtos/Geladeira/geladeira3.jpg" alt="brand">
+                    <div class="carousel-caption fontemenucompra">
                       Geladeira / Refrigerador Consul Degelo Seco 261 Litros CRA30
                     </div>
                   </div>
                   <div class="item">
                     <img src="Imagens/Produtos/Geladeira/geladeira6.jpg" alt="brand">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption fontemenucompra">
                       Geladeira / Refrigerador 1 Porta Electrolux Celebrate Blue Touch RDE33 Degelo Autolimpante
                     </div>
                   </div>
-                  ...
+                  EM DESTAQUE
                 </div>
 
                 <!-- Controls -->
@@ -773,6 +790,6 @@
     <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
-    <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
