@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
+    <title>BLUE ELETRÔNICOS</title>
+
+    <!-- Bootstrap -->
+    <!-- Bootstrap -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim e Respond.js para suporte no IE8 de elementos HTML5 e media queries -->
+    <!-- ALERTA: Respond.js não funciona se você visualizar uma página file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+  <style type="text/css">
+  /* CSS para estilização das imagens de fundo das divs */
+    #classe1{background-image: url("Imagens/Icon/BlueEletronicos.jpg"); background-size: 350px; background-repeat: no-repeat; background-size: 290px; margin-top: 70px; padding-bottom: 180px;} /*CSS para margem da logo.*/
+    #classe2{}
+    #classe3{}
+    #classe4{}
+    .fundocompra{background-image: url(Imagens/corpo/rachado.jpg); border: 3px solid #337ab7;
+   }
+    
+    .rodape{
+      background-image: url("Imagens/corpo/azul-fundo-2.jpg");
+    }
+
+  </style>
+
+<style type="text/css">
+  /*CSS para tamanho e distância entre as divs/botões/textos*/
+        a:link 
+      { 
+       text-decoration:none; 
+      }
+      #containerconteudocompras{padding: 40px;}
+     #menuPrincipal{padding-top: 30px; padding-bottom: 140px; }
+     #PdaSAC{padding-top: 30px; }
+     #Pesquisa{margin-left: 20px; margin-top: 0;}
+     #rodapeP{margin-left:40px; margin-top: 40px; margin-bottom: 10px; text-align: center; color: white ; font-size: 10px }
+     #rodapePC{color: white;margin-left:40px; font-size: 10px}
+     #tablerodape{margin-left: 50px; margin-top: auto; margin-bottom:auto; margin-right: 50px; }
+     
+     .form-control{min-width: 200px;}
+     .tamanhoformulario{max-width: 300px;}
+     .cadastrobutton{margin-left: 07px;}
+     .daSAC{margin-right: 10px; }
+     .tamanhosiconesdaSAC{ max-width:25px; max-height:25px; width: auto; height: auto;}
+     .tamanhosiconesdocarrinho{max-width:75px; max-height:75px; width: auto; height: auto;}
+     .margemBotoesMenuPrincipal{padding-bottom: 10px; padding-top: 10px;}
+     .rodapeemail{margin-top: 55px;}
+     .tamanhodosiconesdomenu{ max-width:75px; max-height:70px; width: auto; height: auto; }
+     .margemdoformulario{margin-top: 10px;}
+     .margemdoformularioinicio{margin-top: 60px;} 
+     .margemdocarrinho{margin-top:60px;}
+     .tamanhoImagemLogoRodape{max-width:200px; max-height:210px; width: auto; height: auto; margin-bottom: 20px}
+     .corBranca{color: white}
+     .PosicaoDasDivsConteudoButton{margin-bottom: 40px; margin-top: 20px}
+     .formulariocadastro{max-width: 280px; max-height: 34px;}
+     .corbrancafundo{background-color: white}
+     .fontemenucompra{color: black; font-weight: 900}
+     .bordaazul{border: 1px solid #337ab7}
+     .posicaoopcoesmenusec{margin-left: 180px; }
+
+     hr{border: 3px solid #337ab7}
+
+</style>
+      <div class="container">
+              <!-- DIVS Correspondem a: 1- LOGO 2- MENU SAC 3-Carrinho 4-Cadastro/Login -->
+              <!-- -------------------------------------------------------------------- -->
+          <div class="row" align="center">
+              
+              <div class="col-md-3 " id="classe1" name="LOGO NÃO MECHA"> </div>
+              <div class="col-md-5 " id="classe2">
+
+                  <h6><p id="PdaSAC">
+                  <a href="carrinho.html" class="daSAC"><img alt="Brand" class="tamanhosiconesdaSAC" src="Imagens/Icones/lista.png">Lista de desejos</a>
+                  <a href="carrinho.html" class="daSAC"><img alt="Brand" class="tamanhosiconesdaSAC" src="Imagens/Icones/pedidos.png">Meus Pedidos</a>  
+                  <a href="atendimentos.html#formulario" class="daSAC"><img alt="Brand" class="tamanhosiconesdaSAC" src="Imagens/Icones/atendimentos.png">Atendimentos</a>   </p>
+                  <p>
+                  <a href="" style="color:white">
+                  <button type="button" class="btn btn-primary btn-xs">Minha Conta</button></a>
+                  <a href="quemsomos.html" style="color:white">
+                  <button type="button" class="btn btn-primary btn-xs">Quem Somos</button></a>
+                  <a href="politica.html" style="color:white">
+                  <button type="button" class="btn btn-primary btn-xs">Politica do Site</button></a>
+                  
+                  
+                  </p></h6>
+
+
+
+
+              </div>
+              <div class="col-md-2 margemdocarrinho" id="classe3" align="center" >
+
+              <a href="carrinho.html"><img alt="Brand" class="tamanhosiconesdocarrinho" src="Imagens/Icones/carrinho.png"></a>
+
+              </div>
+
+              <!-- FORMULARIO de LOGIN-->
+              <div class="col-md-2 " id="classe6">
+
+                        <div align="center" class="margemdoformularioinicio" >
+                        
+                
+                
+                         <button class="btn btn-primary bnt-block" data-toggle="modal" data-target="#myModal">
+                                    ENTRE NA SUA CONTA
+                                </button>
+
+                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                    <div class="modal-content">
+
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                        <h4 class="modal-title" id="myModalLabel">Entre na sua conta</h4>
+                                      </div> <!-- /.modal-header -->
+
+                                      <div class="modal-body">
+                                        <form role="form">
+                                          <div class="form-group">
+                                            <div class="input-group">
+                                              <input type="text" class="form-control" id="uLogin" placeholder="EMAIL">
+                                              <label for="uLogin" class="input-group-addon glyphicon glyphicon-user"></label>
+                                            </div>
+                                          </div> <!-- /.form-group -->
+
+                                          <div class="form-group">
+                                            <div class="input-group">
+                                              <input type="password" class="form-control" id="uPassword" placeholder="SENHA">
+                                              <label for="uPassword" class="input-group-addon glyphicon glyphicon-lock"></label>
+                                            </div> <!-- /.input-group -->
+                                          </div> <!-- /.form-group -->
+
+                                          <div class="checkbox">
+                                            <label>
+                                              <input type="checkbox"> Me Lembre
+                                            </label>
+                                          </div> <!-- /.checkbox -->
+                                        </form>
+
+                                        <div class="checkbox">
+                                          
+                                         <a href="esqueciminhasenha.html"> Esqueci minha Senha </a>
+                                            
+                                          </div> <!-- /.checkbox -->
+                                       
+
+
+                                      </div> <!-- /.modal-body -->
+
+                                      <div class="modal-footer">
+                                        <button class="form-control btn btn-primary">Ok</button>
+
+                                        <div class="progress">
+                                          <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="1" aria-valuemin="1" aria-valuemax="100" style="width: 0%;">
+                                            <span class="sr-only">Progresso</span>
+                                          </div>
+                                        </div>
+
+                                      </div> <!-- /.modal-footer -->
+
+                                    </div><!-- /.modal-content -->
+                                  </div><!-- /.modal-dialog -->
+                                </div><!-- /.modal -->
+                                <!--------------------------------------------------------------------- -->
+                                <br>
+                                <!-- MODAL CADASTRO -->
+                                <button class="btn btn-primary  btn-block btn-xs cadastrobutton" data-toggle="modal" data-target="#myModal2" id="loginbutton2">
+                                    OU CADASTRE-SE
+                                </button>
+
+                                <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+                                  <div class="modal-dialog">
+                                    <div class="modal-content">
+
+                                      <div class="modal-header ">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                        <h4 class="modal-title" id="myModalLabel">ENTRE COM SEUS DADOS</h4>
+                                      </div> <!-- /.modal-header -->
+
+                                      <div class="modal-body col-md-5" >
+                                        <form role="form">
+                                          <div class="form-group">
+                                            <div class="input-group">
+                                            Digite um nome de usuário:
+                                              <input id="nomeusuario" name="idNome" type="text" placeholder="NOME" class="form-control input-md " required="">
+                                              
+                                            </div>
+                                          </div> <!-- /.form-group -->
+
+                                          <div class="form-group ">
+                                            <div class="input-group">
+                                            Digite um e-mal:
+                                              <input id="emailusuario" name="idNome" type="text" placeholder="E_MAIL" class="form-control input-md " required="">
+                                              
+                                            </div>
+                                          </div> <!-- /.form-group -->
+
+
+                                          <div class="form-group">
+                                            <div class="input-group">
+                                              Digite uma senha:
+                                              <input type="password" class="form-control" id="uPassword" placeholder="SENHA" class="form-control input-md " required="">
+                                              
+                                            </div> <!-- /.input-group -->
+                                          </div> <!-- /.form-group -->
+
+                                           <div class="form-group">
+                                            <div class="input-group">
+                                              Digite sua senha novamente:
+                                              <input type="password" class="form-control" id="uPassword" placeholder="SENHA" class="form-control input-md " required="">
+                                              
+                                            </div> <!-- /.input-group -->
+                                          </div> <!-- /.form-group -->
+
+                                          <div class="form-group ">
+                                            <div class="input-group ">
+                                              Digite seu CPF:
+                                              <input type="text"  id="cpf"  placeholder="CPF" class=" form-control input-md" required="">
+                                              
+                                            </div> <!-- /.input-group -->
+                                          </div> <!-- /.form-group -->
+
+                                          <div class="form-group">
+                                            <div class="input-group">
+                                              Digite o numero do cartão:
+                                              <input type="text" id="cpf" placeholder="Nº CARTÂO" class="form-control input-md " required="" >
+                                            </div> <!-- /.input-group -->
+                                          </div> <!-- /.form-group -->
+
+                                          <div class="form-group">
+                                            <div class="input-group">
+                                              Digite a senha de segurança:
+                                              <input type="password" id="senha" placeholder="SENHA - 3 DIGITOS" class="form-control input-md " required="">
+                                            </div> <!-- /.input-group -->
+                                          </div> <!-- /.form-group -->
+
+                                          <div class="form-group">
+                                            <div class="input-group">
+                                              Endereço:
+                                              
+                                              <input type="text" id="endereco" placeholder="Endereco" class="form-control input-md " required=""> 
+                                              <input type="text" name="numero" class="form-control input-md" placeholder="Nº" >
+                                              <input type="text" name="Bairro" class="form-control input-md" placeholder="Bairro">
+                                            </div> <!-- /.input-group -->
+                                          </div> <!-- /.form-group -->
+
+                                          <br>
+
+                                          <div class="form-group">
+                                              <div class="input-group">
+                                                <label class="col-md-4 control-label" for="idAdmin">Bandeira:</label>
+                                                <div class="col-md-5">
+                                                  <select id="idAdmin" name="idAdmin" class="form-control">
+                                                    <option value="1">VISA</option>
+                                                    <option value="2">MASTERCARD</option>
+                                                  </select>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <br>
+
+                                          <div class="form-group">
+                                              <div class="input-group">
+                                                <label class="col-md-4 control-label" for="idAdmin">Nível</label>
+                                                <div class="col-md-5">
+                                                  <select id="idAdmin" name="idAdmin" class="form-control">
+                                                    <option value="1">Administrador</option>
+                                                    <option value="2">Usuário</option>
+                                                  </select>
+                                                </div>
+                                              </div>
+                                            </div>
+
+                                        </form>
+
+                                      </div> <!-- /.modal-body -->
+
+                                      <div class="modal-footer">
+                                        <button class="form-control btn btn-primary">Ok</button>
+
+                                        <div class="progress">
+                                          <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="1" aria-valuemin="1" aria-valuemax="100" style="width: 0%;">
+                                            <span class="sr-only">Progresso</span>
+                                          </div>
+                                        </div>
+                                      </div> <!-- /.modal-footer -->
+
+                                    </div><!-- /.modal-content -->
+                                  </div><!-- /.modal-dialog -->
+                                </div><!-- /.modal -->
+                                <!-- ------------------------------------------------------------------------------- -->
+
+
+                  </div>
+
+              </div>
+
+              <!-- CLASSE REFERENTE AO MENU DE PESQUISA -->
+              <div class="col-lg-5 col-md-offset-3" id="Pesquisa">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button">PESQUISAR</button>
+                    </span>
+                  </div><!-- /input-group -->
+                </div><!-- /.col-lg-6 -->
+              
+          </div>
+          
+
+
+          <!-- ------------------------------------------------------------------------- -->
+          <!-- Div referente ao menu principal -->
+
+            <div class="row-md-12" id="menuPrincipal" align="center"> 
+              
+                        <!-- TABLET E CELULARES -->
+                    <!-- TABLET E CELULARES -->
+                    <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal " id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/tablet.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li> <a href="kindle.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Kindles</button></a></li> 
+                         <li><a href="smartphone.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Smartphones</button></a></li>
+                          <li><a href="tablet.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Tablets</button></a></li>
+                          
+                       </ul>
+                      </div>
+                     </div>
+                      <!-- TELEVISÃO -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal " id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/TV.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="tvlcd.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">TVs LCD</button></a></li>
+                         <li><a href="tvled.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">TVs LED</button></a></li>
+                          <li><a href="tvplasma.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">TVs Plasma</button></a></li>
+                         
+                       </ul>
+                      </div>
+                     </div>
+
+                      <!-- NOTEBOOK -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/notebook.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="netbook.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Netbooks</button></a></li>
+                         <li><a href="notebook.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Notebooks</button></a></li>
+                          <li><a href="ultrabook.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Ultrabooks</button></a></li>
+                         
+                       </ul>
+                      </div>
+                     </div>
+
+                      <!-- GELADEIRA -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/Geladeiras.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="freezer.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Freezers</button></a></li>
+                         <li><a href="frigobar.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Frigobares</button></a></li>
+                          <li><a href="geladeira.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Geladeiras</button></a></li>
+                          
+                       </ul>
+                      </div>
+                     </div>
+
+                     <!-- LAvadora de roupas -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/lavar.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="lavadouraautomatica.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Lavadoras automáticas</button></a></li>
+                         <li><a href="lavadourasemiautomatica.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Lavadoras semi-automáticas</button></a></li>
+                          <li><a href="secadora.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Secadoras</button></a></li>
+                          
+                       </ul>
+                      </div>
+                     </div>
+
+                      <!-- VIDEOGAME -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/games.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="console.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Consoles</button></a></li>
+                         <li><a href="jogo.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Jogos</button></a></li>
+                          <li><a href="portatil.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Portateis</button></a></li>
+                          
+                       </ul>
+                      </div>
+                     </div>
+
+                      <!-- ArCondicionados -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/Arcondicionado.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="split.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Ar Condicionados Splits</button></a></li>
+                         <li><a href="pisoteto.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Ar Condicionados Piso-Teto</button></a></li>
+                          <li><a href="arportatil.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Ar Condionados Portateis</button></a></li>
+                           
+                       </ul>
+                      </div>
+                     </div>
+                      <!-- FOGÃO -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/fogão.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="batedeira.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Batedeiras</button></a></li>
+                         <li><a href="microondas.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Microondas</button></a></li>
+                          <li><a href="sanduicheira.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Sanduicheiras</button></a></li>
+                           
+                       </ul>
+                      </div>
+                     </div>
+                     <!-- LIVROS -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/livro.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="academico.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Acadêmicos</button></a></li>
+                         <li><a href="paradidatico.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Pardidáticos</button></a></li>
+                          <li><a href="variado.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Variados</button></a></li>
+                         
+                       </ul>
+                      </div>
+                     </div>
+                     <!-- MAIS -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/maiss.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="aparelhosom.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Aparelhos de Som</button></a></li>
+                         <li><a href="dvd.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">DVDs</button></a></li>
+                          <li><a href="liquidificador.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Liquidificadores</button></a></li>
+                           
+                       </ul>
+                      </div>
+                     </div>
+                     
+
+            
+              
+            </div>
+
+          <!-- ------------------------------------------------------------------------ -->
+          <!-- Divs com o menu secundário e a parte dos conteúdos. -->
+
+
+          <div class="row" id="ParteDosConteudos"> 
+
+              <div class="col-md-3 " id="menusecundario" > 
+
+              <!-- BOTÕES PARA REDIRECIONAMENTO (Botões Secundários dos menus)-->
+             	 	<div class="dropdown ">
+                       <a href="index.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">
+                           
+                            Página Inicial
+                           
+                        </button></a> 
+                    </div>
+                  <div class="dropdown ">
+                       <a href="promocoes.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">
+                           
+                            Promoções 
+                           
+                        </button></a> 
+                    </div>
+
+                    <div class="dropdown">
+                       <button class="btn btn-default dropdown-toggle btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                           Cozinha
+                         
+                        </button>
+                       <ul class="dropdown-menu btn btn-lg btn-block" aria-labelledby="dropdownMenu1">
+                        <li><a href="geladeira.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Geladeiras</button></a></li>
+                         <li><a href="microondas.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Microondas</button></a></li>
+                          <li><a href="liquidificador.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Liquidificadores</button></a></li>
+                           
+                       </ul>
+                    </div>
+
+                    <div class="dropdown">
+                       <button class="btn btn-default dropdown-toggle btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                           Sala
+                         
+                        </button>
+                       <ul class="dropdown-menu btn btn-lg btn-block" aria-labelledby="dropdownMenu1">
+                        <li><a href="tvled.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">TVs de LED</button></a></li>
+                         <li><a href="aparelhosom.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Aparelhos de Som</button></a></li>
+                          <li><a href="dvd.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">DVDs</button></a></li>
+                           
+                       </ul>
+                    </div>
+
+                    <div class="dropdown">
+                       <button class="btn btn-default dropdown-toggle btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                           Quarto
+                         
+                        </button>
+                       <ul class="dropdown-menu btn btn-lg btn-block" aria-labelledby="dropdownMenu1">
+                        <li><a href="split.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Ar Condicionados Splits</button></a></li>
+                         <li><a href="frigobar.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Frigobares</button></a></li>
+                          <li><a href="notebook.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Notebooks</button></a></li>
+                          
+                       </ul>
+                    </div>
+
+                    
+
+               </div>
+              <!-- -------------------------------------------------- -->
+
+
+              <div class="col-md-9 PosicaoDasDivsConteudoButton fundocompra fontemenucompra" id="conteudo" >   
+
+
+              <!-- TRANSAÇÃO DE SLIDES -->
+                  
+              <div id="carousel-example-generic" class="carousel slide posicaoslide PosicaoDasDivsConteudoButton corbrancafundo bordaazul" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img width="250" heigth="250" src="Imagens/Produtos/Geladeira/geladeira1.jpg" alt="brand">
+                    <div class="carousel-caption fontemenucompra">
+                      Refrigerador Brastemp Ative! Frost Free BRM48NK Platinum - 403 L - Evox - 110V
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img width="250" heigth="250" src="Imagens/Produtos/Geladeira/geladeira3.jpg" alt="brand">
+                    <div class="carousel-caption fontemenucompra">
+                      Geladeira / Refrigerador Consul Degelo Seco 261 Litros CRA30
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img width="250" heigth="250" src="Imagens/Produtos/Geladeira/geladeira6.jpg" alt="brand">
+                    <div class="carousel-caption fontemenucompra">
+                      Geladeira / Refrigerador 1 Porta Electrolux Celebrate Blue Touch RDE33 Degelo Autolimpante
+                    </div>
+                  </div>
+                  EM DESTAQUE
+                </div>
+
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <!-- -------------------------------------------------------------------------------------------- -->
+
+
+
+                <!-- Divs com opções de compras -->
+                <!-- <div class="container" id="containerconteudocompras"> -->
+                
+                <hr>
+                       <hr>
+                      <div class="row">
+                        <div class="col-sm-4 ">
+                          <div class="thumbnail">
+                            <img width="500" heigth="500" src="Imagens/Produtos/ilavadora/secadora/secadora1.jpg" alt="brand">
+                            <div class="caption">
+                             <h5>Lavadora de Roupas Lava e Seca Samsung 9kg Branca </h5>
+                              <p><h4>R$ 2606,00</h4></p>
+                              <p><a href="compra.html" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                          <div class="thumbnail">
+                            <img width="500" heigth="500" src="Imagens/Produtos/ilavadora/secadora/secadora2.jpg" alt="brand">
+                            <div class="caption">
+                             <h5>Samsung Seine WD856UHSAWQ Lavadora/Secadora - 8.5 KG </h5>
+                              <p><h4>R$ 2279,00</h4></p>
+                              <p><a href="compra.html" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-4 ">
+                          <div class="thumbnail">
+                            <img width="500" heigth="500" src="Imagens/Produtos/ilavadora/secadora/secadora3.jpg" alt="brand">
+                            <div class="caption">
+                             <h5>Electrolux Intuitive LSI11 Lavadora/Secadora - 10.5 KG </h5>
+                              <p><h4>R$ 2947,00</h4></p>
+                              <p><a href="compra.html" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 ">
+                          <div class="thumbnail">
+                            <img width="500" heigth="500" src="Imagens/Produtos/ilavadora/secadora/secadora4.jpg" alt="brand">
+                            <div class="caption">
+                             <h5>Lava e Seca Electrolux LST12 12 Kg Branco Intelligent Sensor</h5>
+                              <p><h4>R$ 2899,00</h4></p>
+                              <p><a href="compra.html" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-4 ">
+                          <div class="thumbnail">
+                            <img width="500" heigth="500" src="Imagens/Produtos/ilavadora/secadora/secadora5.jpg" alt="brand">
+                            <div class="caption">
+                             <h5>Lava e Seca Samsung WD10J6410AX 10,2kg Inox Look</h5>
+                              <p><h4>R$ 3074,00</h4></p>
+                              <p><a href="compra.html" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-4 ">
+                          <div class="thumbnail">
+                            <img width="500" heigth="500" src="Imagens/Produtos/ilavadora/secadora/secadora6.jpg" alt="brand">
+                            <div class="caption">
+                             <h5>Lavadora de Roupas Lava e Seca Samsung 10,2kg </h5>
+                              <p><h4>R$ 3055,00</h4></p>
+                              <p><a href="compra.html" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+                      
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4 ">
+                          <div class="thumbnail">
+                            <img width="500" heigth="500" src="Imagens/Produtos/ilavadora/secadora/secadora7.jpg" alt="brand">
+                            <div class="caption">
+                             <h5>Secadora de Roupas Brastemp, 10 Kg Automática, Ative - BSR10AB</h5>
+                              <p><h4>R$ 1462,00</h4></p>
+                              <p><a href="compra.html" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                      <div class="col-sm-4">
+                          <div class="thumbnail">
+                            <img width="500" heigth="500" src="Imagens/Produtos/ilavadora/secadora/secadora8.jpg" alt="brand">
+                            <div class="caption">
+                             <h5>Secadora de Roupas Brastemp BSI10AB 10kg Suspensa 127V</h5>
+                              <p><h4>R$ 1548,00</h4></p>
+                              <p><a href="compra.html" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-4 ">
+                          <div class="thumbnail">
+                            <img width="500" heigth="500" src="Imagens/Produtos/ilavadora/secadora/secadora9.jpg" alt="brand">
+                            <div class="caption">
+                             <h5>Secadora de Roupas Electrolux de Piso ou Parede </h5>
+                              <p><h4>R$ 1498,00</h4></p>
+                              <p><a href="compra.html" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                      
+
+                          <!-- </div> -->
+
+
+                      
+
+                          <!-- </div> -->
+
+
+                        </div>
+
+                    </div>
+                            <!-- CONTEUDO DE ROLAGEM -->
+                            
+
+                </div>
+              <!-- ----------------------------------------------------------------------------------------------- -->
+               </div>
+
+                
+
+
+           </div><!--fim da container-->
+
+           <!-- RODAPÉ -->
+
+           <div class="container rodape" id="rodape" >
+             <div class="row rodape">
+               <div class="col-md-2" align="center">
+               <p id="rodapeP">DESENVOLVIDO</p>
+                <p id="rodapePC">POR</p>
+                  <img src="Imagens/Icon/SoftFabric.png" class="tamanhoImagemLogoRodape"> 
+
+               </div>
+               <div class="col-md-2 corBranca" >
+
+                <p class="rodapeemail"> Telefones para Contato: </p> 
+                <br>
+
+                <p>(85) 997654432</p>
+                <p>(65) 987665432</p>
+                <p>(88) 988776655</p>
+                 
+
+               </div>
+               <div class="col-md-2 corBranca"  >
+                 
+                <p class="rodapeemail"> Email para contato:</p> 
+                <br>
+
+                <p>blueeletronicos@gmail.com</p>
+                <p>blueeletronicosfortaleza@gmail.com</p>
+                <p>softfabric@gmail.com</p>
+
+
+               </div>
+             </div>
+           </div>
+
+
+
+
+
+
+
+
+
+
+
+    
+      </div>
+    <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

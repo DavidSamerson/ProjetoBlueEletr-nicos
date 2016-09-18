@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
+    <title>BLUE ELETRÔNICOS</title>
+
+    <!-- Bootstrap -->
+    <!-- Bootstrap -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim e Respond.js para suporte no IE8 de elementos HTML5 e media queries -->
+    <!-- ALERTA: Respond.js não funciona se você visualizar uma página file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+  <style type="text/css">
+  /* CSS para estilização das imagens de fundo das divs */
+    #classe1{background-image: url("Imagens/Icon/BlueEletronicos.jpg"); background-size: 350px; background-repeat: no-repeat; background-size: 290px; margin-top: 70px; padding-bottom: 180px;} /*CSS para margem da logo.*/
+    #classe2{}
+    #classe3{}
+    #classe4{}
+    
+    .rodape{
+      background-image: url("Imagens/corpo/azul-fundo-2.jpg");
+    }
+
+  </style>
+
+<style type="text/css">
+  /*CSS para tamanho e distância entre as divs/botões/textos*/
+        a:link 
+      { 
+       text-decoration:none; 
+      }
+      #containerconteudocompras{padding: 40px;}
+     #menuPrincipal{padding-top: 30px; padding-bottom: 140px; }
+     #PdaSAC{padding-top: 30px; }
+     #Pesquisa{margin-left: 20px; margin-top: 0;}
+     #rodapeP{margin-left:40px; margin-top: 40px; margin-bottom: 10px; text-align: center; color: white ; font-size: 10px }
+     #rodapePC{color: white;margin-left:40px; font-size: 10px}
+     #tablerodape{margin-left: 50px; margin-top: auto; margin-bottom:auto; margin-right: 50px; }
+     
+
+
+     .daSAC{margin-right: 10px; }
+     .tamanhosiconesdaSAC{ max-width:25px; max-height:25px; width: auto; height: auto;}
+     .tamanhosiconesdocarrinho{max-width:75px; max-height:75px; width: auto; height: auto;}
+     .margemBotoesMenuPrincipal{padding-bottom: 10px; padding-top: 10px;}
+     .rodapeemail{margin-top: 55px;}
+     .tamanhodosiconesdomenu{ max-width:75px; max-height:70px; width: auto; height: auto; }
+     .margemdoformulario{margin-top: 10px;}
+     .margemdoformularioinicio{margin-top: 60px;} 
+     .margemdocarrinho{margin-top:60px;}
+     .tamanhoImagemLogoRodape{max-width:200px; max-height:210px; width: auto; height: auto; margin-bottom: 20px}
+     .corBranca{color: white}
+     .PosicaoDasDivsConteudoButton{margin-bottom: 40px }
+
+</style>
+      <div class="container">
+              <!-- DIVS Correspondem a: 1- LOGO 2- MENU SAC 3-Carrinho 4-Cadastro/Login -->
+              <!-- -------------------------------------------------------------------- -->
+          <div class="row" align="center">
+              
+              <div class="col-md-3 " id="classe1" name="LOGO NÃO MECHA"> </div>
+              <div class="col-md-5 " id="classe2">
+
+                  <h6><p id="PdaSAC">
+                  <a href="" class="daSAC"><img alt="Brand" class="tamanhosiconesdaSAC" src="Imagens/Icones/lista.png">Lista de desejos</a>
+                  <a href="" class="daSAC"><img alt="Brand" class="tamanhosiconesdaSAC" src="Imagens/Icones/pedidos.png">Meus Pedidos</a> 
+                  <a href="" class="daSAC"><img alt="Brand" class="tamanhosiconesdaSAC" src="Imagens/Icones/atendimentos.png">Atendimentos</a>   </p>
+                  <p>
+                  <button type="button" class="btn btn-primary btn-xs">Minha Conta</button>
+                  <a href="quemsomos.html" style="color:white">
+                  <button type="button" class="btn btn-primary btn-xs">Quem Somos</button>
+                  <a href="politica.html" style="color:white">
+                  <button type="button" class="btn btn-primary btn-xs">Politica do Site</button>
+                  <a href="sac.html" style="color:white">
+                  <button type="button" class="btn btn-primary btn-xs">SAC</button>
+                  </p></h6>
+
+
+
+
+              </div>
+              <div class="col-md-2 margemdocarrinho" id="classe3" align="center" >
+
+              <a href=""><img alt="Brand" class="tamanhosiconesdocarrinho" src="Imagens/Icones/carrinho.png"></a>
+
+              </div>
+
+              <!-- FORMULARIO de LOGIN-->
+              <div class="col-md-2 " id="classe6">
+
+                        <div align="center" class="margemdoformularioinicio">
+                        
+                
+                
+                         <form id="login-form" class="text-left" action="">
+                            
+                                  <label for="lg_username" class="sr-only bnt-block">Username</label>
+                                  <input type="text" class="form-control" id="lg_username" name="lg_username" placeholder="username">
+                                
+                                  <label for="lg_password" class="sr-only">Password</label>
+                                  <input type="password" class="form-control" id="lg_password" name="lg_password" placeholder="password">
+
+                                    <div align="center" class="margemdoformulario">
+                                  <input type="submit" name="LOGIN" value="LOGIN" class="btn btn-primary btn-xs">
+
+                                  <a href=""><button type="button" class="btn btn-primary btn-xs">CADASTRE-SE</button></a>
+
+                                    </div>
+                          </form>
+                        
+                  </div>
+
+              </div>
+
+              <!-- CLASSE REFERENTE AO MENU DE PESQUISA -->
+              <div class="col-lg-5 col-md-offset-3" id="Pesquisa">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button">PESQUISAR</button>
+                    </span>
+                  </div><!-- /input-group -->
+                </div><!-- /.col-lg-6 -->
+              
+          </div>
+          
+
+
+          <!-- ------------------------------------------------------------------------- -->
+          <!-- Div referente ao menu principal -->
+
+            <div class="row-md-12" id="menuPrincipal" align="center"> 
+              
+                        <!-- TABLET E CELULARES -->
+                    <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal " id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/tablet.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li> <a href="kindle.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Kindles</a></li> 
+                         <li><a href="smartphone.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Smartphones</a></li>
+                          <li><a href="tablet.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Tablets</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                      </div>
+                     </div>
+                      <!-- TELEVISÃO -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal " id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/TV.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="tvlcd.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">TVs LCD</a></li>
+                         <li><a href="tvled.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">TVs LED</a></li>
+                          <li><a href="tvplasma.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">TVs Plasma</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                      </div>
+                     </div>
+
+                      <!-- NOTEBOOK -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/notebook.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="netbook.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Netbooks</a></li>
+                         <li><a href="notebook.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Notebooks</a></li>
+                          <li><a href="ultrabook.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Ultrabooks</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                      </div>
+                     </div>
+
+                      <!-- GELADEIRA -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/Geladeiras.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="freezer.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Freezers</a></li>
+                         <li><a href="frigobar.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Frigobares</a></li>
+                          <li><a href="geladeira.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Geladeiras</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                      </div>
+                     </div>
+
+                     <!-- LAvadora de roupas -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/lavar.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="lavadouraautomatica.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Lavadouras automáticas</a></li>
+                         <li><a href="lavadourasemiautomatica.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Lavadouras semi-automáticas</a></li>
+                          <li><a href="secadora.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Secadoras</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                      </div>
+                     </div>
+
+                      <!-- VIDEOGAME -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/games.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="console.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Consoles</a></li>
+                         <li><a href="jogo.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Jogos</a></li>
+                          <li><a href="portatil.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Portateis</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                      </div>
+                     </div>
+
+                      <!-- ArCondicionados -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/Arcondicionado.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="split.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Ar Condicionados Splits</a></li>
+                         <li><a href="pisoteto.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Ar Condicionados Piso-Teto</a></li>
+                          <li><a href="arportatil.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Ar Condionados Portateis</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                      </div>
+                     </div>
+                      <!-- FOGÃO -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/fogão.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="batedeira.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Batedeiras</a></li>
+                         <li><a href="microondas.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Microondas</a></li>
+                          <li><a href="sanduicheira.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Sanduicheiras</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                      </div>
+                     </div>
+                     <!-- LIVROS -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/livro.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="academico.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Acadêmicos</a></li>
+                         <li><a href="paradidatico.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Pardidáticos</a></li>
+                          <li><a href="variado.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Variados</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                      </div>
+                     </div>
+                     <!-- MAIS -->
+                     <div class="btn-group" role="group" aria-label="...">
+                      <div class="col-md dropdown bnt-lg" >
+                      <button type="button " class="dropdown-toggle btn btn-primary btn-lg margemBotoesMenuPrincipal" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+
+                      <img alt="Brand" src="Imagens/Icon/maiss.png" class="tamanhodosiconesdomenu">  </button>
+
+                      <ul class="dropdown-menu btn btn-lg" aria-labelledby="dropdownMenu1">
+                        <li><a href="aparelhosom.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Aparelhos de Som</a></li>
+                         <li><a href="dvd.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">DVDs</a></li>
+                          <li><a href="liquidificador.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Liquidificadores</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                      </div>
+                     </div>
+                     
+
+            
+              
+            </div>
+
+          <!-- ------------------------------------------------------------------------ -->
+          <!-- Divs com o menu secundário e a parte dos conteúdos. -->
+
+
+          <div class="row" id="ParteDosConteudos divConteudoFundo"> 
+
+              <div class="col-md-3 " id="menusecundario" > 
+
+              <!-- BOTÕES PARA REDIRECIONAMENTO (Botões Secundários dos menus)-->
+                <div class="dropdown ">
+                       <a href="promocoes.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">
+                           
+                            Promoções 
+                           
+                        </button></a> 
+                    </div>
+
+                    <div class="dropdown">
+                       <button class="btn btn-default dropdown-toggle btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                           Cozinha
+                         
+                        </button>
+                       <ul class="dropdown-menu btn btn-lg btn-block" aria-labelledby="dropdownMenu1">
+                        <li><a href="geladeira.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Geladeiras</a></li>
+                         <li><a href="microondas.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Microondas</a></li>
+                          <li><a href="liquidificador.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Liquidificadores</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                    </div>
+
+                    <div class="dropdown">
+                       <button class="btn btn-default dropdown-toggle btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                           Sala
+                         
+                        </button>
+                       <ul class="dropdown-menu btn btn-lg btn-block" aria-labelledby="dropdownMenu1">
+                        <li><a href="tvled.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">TVs de LED</a></li>
+                         <li><a href="aparelhosom.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Aparelhos de Som</a></li>
+                          <li><a href="dvd.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">DVDs</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                    </div>
+
+                    <div class="dropdown">
+                       <button class="btn btn-default dropdown-toggle btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                           Quarto
+                         
+                        </button>
+                       <ul class="dropdown-menu btn btn-lg btn-block" aria-labelledby="dropdownMenu1">
+                        <li><a href="split.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Ar Condicionados Splits</a></li>
+                         <li><a href="frigobar.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Frigobares</a></li>
+                          <li><a href="notebook.html" style="color:white">
+                       <button class="btn btn-primary btn-lg btn-block" type="button" id="dropdownMenu1">Notebooks</a></li>
+                           <li role="separator" class="divider"></li>
+                            <li><a href="#">Visão Geral</a></li>
+                       </ul>
+                    </div>
+
+                    
+
+               </div>
+              <!-- -------------------------------------------------- -->
+
+
+              <div class="col-md-9 PosicaoDasDivsConteudoButton" id="conteudo" >   
+
+
+              <!-- TRANSAÇÃO DE SLIDES -->
+                  
+              <div id="carousel-example-generic" class="carousel slide posicaoslide PosicaoDasDivsConteudoButton" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="Imagens/Produtos/Geladeira/geladeira1.jpg" alt="brand">
+                    <div class="carousel-caption">
+                      Refrigerador Brastemp Ative! Frost Free BRM48NK Platinum - 403 L - Evox - 110V
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="Imagens/Produtos/Geladeira/geladeira3.jpg" alt="brand">
+                    <div class="carousel-caption">
+                      Geladeira / Refrigerador Consul Degelo Seco 261 Litros CRA30
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="Imagens/Produtos/Geladeira/geladeira6.jpg" alt="brand">
+                    <div class="carousel-caption">
+                      Geladeira / Refrigerador 1 Porta Electrolux Celebrate Blue Touch RDE33 Degelo Autolimpante
+                    </div>
+                  </div>
+                  ...
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <!-- -------------------------------------------------------------------------------------------- -->
+
+
+
+                <!-- Divs com opções de compras -->
+                <!-- <div class="container" id="containerconteudocompras"> -->
+                
+                <hr>
+                      <div class="row">
+                        <div class="col-sm-4 ">
+                          <div class="thumbnail">
+                            <img src="Imagens/Produtos/Tvled/tvled1.jpg" alt="brand">
+                            <div class="caption">
+                             <h5>TV LED Slim 43" Philips 43PFG5000/78 Full HD - Conversor Integrado 2 H</h5>
+                              <p><h4>R$ 1615,00</h4></p>
+                              <p><a href="#" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                          <div class="thumbnail">
+                            <img src="Imagens/Produtos/Tvled/tvled6.jpg" alt="brand">
+                            <div class="caption">
+                             <h5>TV 40p Semp Toshiba LED Full HD Modo Hotel - 40l1500</h5>
+                              <p><h4>R$ 1444,00</h4></p>
+                              <p><a href="#" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-4 ">
+                          <div class="thumbnail">
+                            <img src="Imagens/Produtos/Tvled/tvled3.jpg" alt="brand">
+                            <div class="caption">
+                             <h5>TV LED 48" UN48H4200, HD HDMI USB e Função Futebol, Samsung</h5>
+                              <p><h4>R$ 1310,00</h4></p>
+                              <p><a href="#" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 ">
+                          <div class="thumbnail">
+                            <img src="Imagens/Produtos/Tablet/tablet1.jpg" alt="brand">
+                            <div class="caption">
+                             <h5>Tablet Samsung Galaxy Tab e T560 8GB Wi-Fi Tela 9.6" Android 4.4 Quad-Core – Preto</h5>
+                              <p><h4>R$ 760,00</h4></p>
+                              <p><a href="#" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-4 ">
+                          <div class="thumbnail">
+                            <img src="Imagens/Produtos/Tablet/tablet6.jpg" alt="brand">
+                            <div class="caption">
+                             <h5>Tablet Galaxy Tab e T113NU 8GB Android4.4 2MP 7"PT Samsung</h5>
+                              <p><h4>R$ 545,00</h4></p>
+                              <p><a href="#" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-4 ">
+                          <div class="thumbnail">
+                            <img src="Imagens/Produtos/Tablet/tablet2.jpg" alt="brand">
+                            <div class="caption">
+                             <h5>Tablet Samsung Galaxy Tab S2 T715 16GB Wi-Fi/4G Tela 8'' Android 5.0 Ghz+1.3GHz – Preto</h5>
+                              <p><h4>R$ 1912,00</h4></p>
+                              <p><a href="#" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+                      
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4 ">
+                          <div class="thumbnail">
+                            <img src="Imagens/Produtos/Frigobar/frigobar4.jpg" alt="brand">
+                            <div class="caption">
+                             <h5>Frigobar Philco PH85 68 Litros Preto</h5>
+                              <p><h4>R$ 697,00</h4></p>
+                              <p><a href="#" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                      <div class="col-sm-4">
+                          <div class="thumbnail">
+                            <img src="Imagens/Produtos/Frigobar/frigobar5.jpg" alt="brand">
+                            <div class="caption">
+                             <h5>Frigobar Philco 47 Litros Branco - PH50L Branco 110 V</h5>
+                              <p><h4>R$ 559,00</h4></p>
+                              <p><a href="#" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-4 ">
+                          <div class="thumbnail">
+                            <img src="Imagens/Produtos/Frigobar/frigobar1.jpg" alt="brand">
+                            <div class="caption">
+                             <h5>Frigobar Brastemp Retro, 1 Porta, 76 Litros, Vermelho, com Congelador</h5>
+                              <p><h4>R$ 950,00</h4></p>
+                              <p><a href="#" class="btn btn-default" role="button">Comprar</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                      
+
+                          <!-- </div> -->
+
+
+                        </div>
+
+                    </div>
+                            <!-- CONTEUDO DE ROLAGEM -->
+                            
+
+                </div>
+              <!-- ----------------------------------------------------------------------------------------------- -->
+               </div>
+
+                
+
+
+           </div><!--fim da container-->
+
+           <!-- RODAPÉ -->
+
+           <div class="container rodape" id="rodape" >
+             <div class="row rodape">
+               <div class="col-md-2" align="center">
+               <p id="rodapeP">DESENVOLVIDO</p>
+                <p id="rodapePC">POR</p>
+                  <img src="Imagens/Icon/SoftFabric.png" class="tamanhoImagemLogoRodape"> 
+
+               </div>
+               <div class="col-md-2 corBranca" >
+
+                <p class="rodapeemail"> Telefones para Contato: </p> 
+                <br>
+
+                <p>(85) 997654432</p>
+                <p>(65) 987665432</p>
+                <p>(88) 988776655</p>
+                 
+
+               </div>
+               <div class="col-md-2 corBranca"  >
+                 
+                <p class="rodapeemail"> Email para contato:</p> 
+                <br>
+
+                <p>blueeletronicos@gmail.com</p>
+                <p>blueeletronicosfortaleza@gmail.com</p>
+                <p>softfabric@gmail.com</p>
+
+
+               </div>
+             </div>
+           </div>
+
+
+
+
+
+
+
+
+
+
+
+    
+      </div>
+    <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
